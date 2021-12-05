@@ -35,6 +35,7 @@ header {
 
 .container-categorias {
     margin-top: -25px;
+    padding: 0 250px;
     background-color: #D4A9A7;
 }
 
@@ -46,6 +47,15 @@ header {
     width: 5px;
     height: 5px;
     border-radius: 50px;
+}
+
+.input-group {
+    width: 80%;
+}
+
+.btn.btn-primary{
+    background: none;
+    border: none;
 }
 
 .btn.btn-secondary {
@@ -60,3 +70,13 @@ header {
     border: 1px solid #D4A9A7;
 }
 
+.nav-item-border {
+    color: #fff;
+    border-left: 0.5px solid #fff;
+    border-right: 0.5px solid #fff;
+}
+
+.nav-item-border:hover {
+    color: #fff;
+    opacity: 0.7;
+}
